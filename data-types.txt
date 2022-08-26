@@ -1,0 +1,47 @@
+1.String - str
+2.Number - int,float,complex
+3.None
+4.Sequence - list, tuple, range
+5.Mapping - Dict
+6.set - set, frozenset
+7.Boolean - Bool
+8.binary - bytes, bytearray
+
+
+Operators
+------------
+1. Arithmatic operator
+2.Assignment
+3.Comparission
+4.logical
+5.identity
+6.membership
+7.Bitwise operator
+
+Group of element represented using a single variables
+    ->List
+    ->tuple
+    ->set
+    ->Dictionary
+    -these are the 4 built-in data types in Python used to store collections of data
+
+list
+-----
+    -Lists are used to store multiple items in a single variable.
+    -is an ordered and particular Sequence are followed
+    -is indexed
+    -it allow duplicates
+    -
+
+tuples
+------
+    -allow duplicate values
+    -it is unchangeble object we cant add or remove element after tuple has created(we can convert tuple into list and add values)
+    
+set
+----
+    -is a collection of is unordered, unchangeable*, and unindexed.
+    -is do not allow duplicate values.
+    -Unordered means that the items in a set do not have a defined order.
+    -Set items can appear in a different order every time you use them, and cannot be referred to by index or key. 
+    -Set items are unchangeable, meaning that we cannot change the items after the set has been created
