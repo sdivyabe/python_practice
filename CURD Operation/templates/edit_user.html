@@ -1,0 +1,48 @@
+{% extends "base.html" %} {% block title %}
+<h1>CRUD Operation from SQLite</h1>
+{% endblock title %} {% block content %}
+<div class="row">
+  <div class="col-5 mx-auto">
+    <h2>Edit student</h2>
+    <hr />
+    <form action="{{url_for('edit_user',id=datas.ID)}}" method="POST">
+      <div class="form-group">
+        <input
+          type="text"
+          name="name"
+          id="name"
+          required="1"
+          value="{{datas.NAME}}"
+          class="form-control"
+        /><br />
+        <input
+          type="text"
+          name="age"
+          id="name"
+          required="1"
+          value="{{datas.AGE}}"
+          class="form-control"
+        /><br />
+        <input
+          type="text"
+          name="language"
+          id="name"
+          required="1"
+          value="{{datas.LANGUAGE}}"
+          class="form-control"
+        /><br />
+        <input
+          type="text"
+          name="preference"
+          id="name"
+          required="1"
+          value="{{datas.PREFERENCE}}"
+          class="form-control"
+        /><br />
+        <input type="submit" value="Update" class="btn btn-primary" />
+      </div>
+    </form>
+  </div>
+</div>
+
+{% endblock content %}

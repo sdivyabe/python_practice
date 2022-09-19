@@ -1,5 +1,5 @@
 python3 -m venv env - (for create virtual environment)
-source ./env/bin/active
+source ./env/bin/activate
 pip3 install flask
 pip freeze >requirment.txt
 
@@ -10,11 +10,13 @@ __main__
 https://www.geeksforgeeks.org/__name__-a-special-variable-in-python/
 
 # Linux
+---------
 sudo apt-get install python3-venv    # If needed
 python3 -m venv .venv
 source .venv/bin/activate
 
 # macOS
+-------
 python3 -m venv .venv
 source .venv/bin/activate
 

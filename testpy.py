@@ -82,6 +82,9 @@ d = (a**2)+(b**2)+(2*a*b)
 print(d)
  """
 
+# (A+B)^2 = A^2 + B^2 + 2AB prove 
+#=================================
+
 """ a = int(input("enter number : "))
 b = int(input("enter number : "))
 
@@ -94,6 +97,7 @@ else:
     print("Not equal")
 
  """
+#====================================================
 
 """ str = input('Enter the String : ')
 con = 0
